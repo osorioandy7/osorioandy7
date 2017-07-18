@@ -1,20 +1,42 @@
 body{
-  background-color:#1EC2B3  ;
-
-}#title1{
+  background-color:black ;
+  margin: 0;
+}
+#namePrompt{
+color: white;
+font-family: sans-serif;
 display: flex;
 flex-direction: row;
+margin-top: 25%;
 justify-content: center;
-margin: 50px;
-border: dotted orange 80px;
-background-color:#1EC2B3;
-
 }
-#links{
+input[type="text"], textarea, #nameTextBox{
+  backface-visibility: hidden;
+  color: white;
+
   display: flex;
-  flex-direction: column;
+  background-color : black;
+  flex-direction: row;
+  margin-top: 50%%;
   justify-content: center;
-margin: 50px;
 
 
 }
+#submitButton{
+  backface-visibility: hidden;
+  display: flex;
+  background-color : black;
+  flex-direction: row;
+  margin-top: 50%%;
+  justify-content: center;
+}
+#name_box{
+color: white;
+display:flex;
+justify-content: center;
+margin-top: 50%;
+}
+#name{color: white;
+display:flex;
+justify-content: center;
+margin-top: 50%;}
