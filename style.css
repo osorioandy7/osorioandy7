@@ -19,9 +19,8 @@ input[type="text"], textarea, #nameTextBox{
   flex-direction: row;
   margin-top: 50%%;
   justify-content: center;
-
-
 }
+
 #submitButton{
   backface-visibility: hidden;
   display: flex;
@@ -30,13 +29,22 @@ input[type="text"], textarea, #nameTextBox{
   margin-top: 50%%;
   justify-content: center;
 }
+
 #name_box{
 color: white;
 display:flex;
 justify-content: center;
 margin-top: 50%;
 }
-#name{color: white;
+
+#welcomeMessage{color: white;
 display:flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 50%;}
+
+#redirectMessage{color: white;
+display:flex;
+flex-direction: row;
 justify-content: center;
 margin-top: 50%;}
