@@ -1,0 +1,13 @@
+body{
+  background-color:orange ;
+  margin: 0;
+}
+#header{
+color: white;
+background: red;
+border: 1px solid white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}

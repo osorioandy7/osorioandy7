@@ -14,7 +14,8 @@ function fadeWelcomeIn(){
 function fadeInRedirect(){
 
 $('#redirectMessage').fadeIn(4000);
-
+$('#redirectMessage').fadeIn(500);
+setTimeout(window.location.replace("file:///Users/demouser/osorioandy7/blog.html"),16000)
 
 }
 //Fades new text box into screen
